@@ -1,0 +1,30 @@
+.Header{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    justify-content: space-between;    
+    background: linear-gradient(0deg, #CF0063, #CF0063),
+    linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%);
+    padding: 15px 30px;
+}
+.headRight a, .headRight li{
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    font-family: Gothic A1;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+
+}
+.headRight ul{
+    display: flex;
+    gap: 20px;
+}
+.headLeft img{
+    width: 80px;
+}
+

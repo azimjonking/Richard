@@ -1,0 +1,23 @@
+.footer{
+    background-color: #1B1B1B;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+}
+.footer img{
+    width: 150px;
+}
+.footer ul{
+    display: flex;
+    gap: 30px;
+}
+.footer ul li{
+   list-style: none; 
+   text-decoration: none;
+}
+.footer ul a{
+   text-decoration: none;
+   color: #6B6B6B;
+}
