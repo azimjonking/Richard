@@ -1,0 +1,84 @@
+.application {
+  width: 100%;
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.ready {
+  width: 100%;
+  min-height: 473px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url("../../assets/application/IMAGE (3).png");
+}
+
+.ready h1 {
+  font-family: sans-serif;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 48px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+
+.apimg {
+  width: 100%;
+  min-height: 518px;
+  margin-top: 50px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.download {
+  width: 190px;
+  height: 56px;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+  background-color: #fc0a7e;
+  border: 1px solid #fc0a7e;
+  transition: all 0.8s ease;
+}
+
+.download:hover {
+  border: 1px solid #ffffff;
+  color: #b04bb3;
+  background: #ffffff;
+}
+
+.get {
+  width: 171px;
+  height: 56px;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+  background: transparent;
+  border: 1px solid #b04bb3;
+  transition: all 0.8s ease;
+}
+
+.get:hover {
+  font-size: 18px;
+}
