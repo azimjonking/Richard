@@ -1,0 +1,39 @@
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;    
+    background: linear-gradient(0deg, #CF0063, #CF0063),
+    linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%);
+    color: #fff;
+    padding: 100px 50px 50px 100px;
+}
+.homeRight img{
+    width: 470px;
+}
+.homeLeft h1{
+    font-family: Gothic A1;
+    font-size: 65px;
+    font-weight: 400;
+line-height: 80px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+.homeLeft p{
+    font-family: Gothic A1;
+font-size: 20px;
+}
+.homeLeft button{
+    background: #FC0A7E;
+    color: #fff;
+    border: none;
+    width: 150px;
+    padding: 15px 20px; 
+    border-radius: 2px;
+}
+.homeLeft{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
